@@ -30,7 +30,7 @@ board.on("ready", function() {
   gamepad.on("move", function (id, axis, value) {
     var MAX_SPEED = 255;
     var val = value * 100;
-    var speed = 255 * Math.abs(value);
+    var speed = MAX_SPEED * Math.abs(value);
     var wheel, wheelName;
 
     if (axis === 1) {
