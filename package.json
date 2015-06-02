@@ -2,6 +2,10 @@
   "name": "gamepad-rover",
   "version": "1.0.0",
   "description": "Use a gamepad to control the pee wee rover.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rustybailey/gamepad-rover.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +13,7 @@
   "author": "rustybailey",
   "license": "MIT",
   "dependencies": {
-    "gamepad": "^1.0.2"
+    "gamepad": "^1.0.2",
+    "johnny-five": "^0.8.76"
   }
 }
